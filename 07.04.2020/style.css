@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/*
+  responsive : tương thích điện thoại máy tính bảng
+*/
+
+html {
+    font-size: 62.5%;
+}
+
+.menu {
+    padding: 15px 10px;
+    background: #cccccc;
+}
+
+.container-fluid {
+    width: 100%;
+}
+
+.container {
+    min-width: 1000px;
+    margin: 0 auto;
+}
+
+.menu .menu__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu .menu_right {
+    display: flex;
+}
+
+.menu .menu_right li {
+    list-style: none;
+    padding: 0 10px;
+}

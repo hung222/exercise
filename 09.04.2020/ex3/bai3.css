@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.menu {
+    color: seashell;
+    padding: 10px 100px;
+    margin: 0px;
+    background: rgb(124, 61, 14);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu .menu1 {
+    color: rgb(180, 145, 27);
+    font-size: 20px;
+}
+
+.menu .menu2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu .menu2 li {
+    list-style: none;
+    padding: 0 10px;
+}

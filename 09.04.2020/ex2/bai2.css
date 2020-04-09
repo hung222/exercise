@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.menu {
+    padding: 10px 30px;
+    background-color: beige;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu .menu1 {
+    padding: 10 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: calc(100%/12 - 10px);
+}
+
+.menu .menu2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    width: calc(100%/3 - 10px);
+}

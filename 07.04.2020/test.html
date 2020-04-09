@@ -9,9 +9,66 @@
 </head>
 
 <body>
-    <h1>hello wolrdwolrd</h1>
-    <p>This is a parahraph.</p>
-    <p>This paragraph contains a lot of lines in the source code, but the browser ignores it.</p>
+    <script>
+        /*padding , margin , flex , algin-item:center,justify-content:space-between, center                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              selector css , cấp độ ưu tiên       
+                 rem
+                 **/
+    </script>
+    <div class="menu">
+        <div class="container-fluid">
+            <div class="container">
+                <div class="menu__content">
+                    <div class="menu_left">
+                        <div class="menu_logo">
+                            <h2>START BOOTSTRAP</h2>
+                        </div>
+                    </div>
+                    <ul class="menu_right">
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="blog">
+        <div class="container-fluid">
+            <div class="container">
+                <div class="blog__content">
+                    <div class="blog__card blog1">
+                        <img width="100%" src="./50416197_358295168328562_2477146882166489088_n.jpg" alt="">
+                        <h1>HELLO</h1>
+
+                    </div>
+                    <div class="blog__card blog2">
+
+                    </div>
+                    <div class="blog__card blog3">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <style>
+        .blog {}
+        
+        .blog .blog__content {
+            display: flex;
+            text-align: center;
+            justify-content: space-between;
+        }
+        
+        .blog .blog__content .blog__card {
+            width: calc(100%/3 - 10px);
+            background-color: aqua;
+        }
+    </style>
+
+
+
 
 </body>
 
