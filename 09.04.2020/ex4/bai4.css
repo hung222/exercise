@@ -9,6 +9,7 @@ html {
 }
 
 .menu {
+    font-size: medium;
     color: white;
     background: rgb(28, 59, 85);
     padding: 10px 50px;
@@ -23,7 +24,13 @@ html {
     align-items: center;
 }
 
-.menu .menu2 li {
+ul {
     list-style: none;
-    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li {
+    padding: 0px 10px;
 }

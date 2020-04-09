@@ -9,25 +9,32 @@ html {
 }
 
 .menu {
+    font-size: medium;
     padding: 10px 30px;
-    background-color: beige;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: wheat;
 }
 
 .menu .menu1 {
-    padding: 10 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: calc(100%/12 - 10px);
+    padding: 0px 4px;
 }
 
-.menu .menu2 {
+.menu11 {
+    padding: 5px;
+}
+
+.menu .menu2 ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 50px;
-    width: calc(100%/3 - 10px);
+    list-style: none;
+}
+
+li {
+    padding: 0 10px;
 }
