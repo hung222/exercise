@@ -1,0 +1,38 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: rgb(225, 230, 230);
+}
+
+.container .menu {
+    display: flex;
+    padding: 0px 50px;
+    align-items: center;
+}
+
+.block__center {
+    padding: 0px 50px;
+}
+
+img {
+    width: 20px;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+}
+
+p {
+    font-size: 15px;
+}

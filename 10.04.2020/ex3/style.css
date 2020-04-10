@@ -1,0 +1,43 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: darkcyan;
+}
+
+
+/* container chỉ có 2 thuộc tính này thôi */
+
+.block {
+    display: flex;
+    padding: 0px 15px;
+}
+
+.block__left {
+    width: 50%;
+}
+
+.block__center {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 10px;
+}
+
+.block__text {
+    width: 50%;
+    padding: 0px 10px;
+}
+
+p {
+    font-size: medium;
+}
