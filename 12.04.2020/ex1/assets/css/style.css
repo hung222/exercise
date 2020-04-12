@@ -1,0 +1,38 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+
+img {
+    width: 100%;
+}
+
+.menu {
+    text-align: center;
+    font-size: medium;
+    padding: 10px 0px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li {
+    text-align: center;
+    padding: 0px 10px;
+    width: calc(100%/4-10px);
+    list-style: none;
+}

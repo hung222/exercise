@@ -1,0 +1,43 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+}
+
+.i {
+    font-size: 20px;
+}
+
+p {
+    padding: 20px 0px;
+}
+
+.container {
+    font-size: medium;
+    color: cornsilk;
+    width: 800px;
+    background-color: brown;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.block__center {
+    padding: 0px 30px;
+}
+
+.block__left {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px 15px;
+}
+
+img {
+    padding: 10px 10px;
+    width: 50%;
+}
