@@ -1,0 +1,39 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    color: lightyellow;
+    font-size: 100%;
+}
+
+.container {
+    width: 800px;
+    margin: 0px auto;
+    background-color: lightseagreen;
+    text-align: center;
+}
+
+.block__center {
+    display: flex;
+    align-items: center;
+    padding: 0px 150px;
+}
+
+.block__center p {
+    padding: 15px;
+}
+
+.list {
+    padding-left: 376px;
+    display: flex;
+    align-items: center;
+}
+
+.block {
+    font-size: 30px;
+    text-align: center;
+    padding-left: 22px;
+}

@@ -1,0 +1,47 @@
+l* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    color: floralwhite;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 90px;
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+    background-color: rgb(46, 35, 119);
+}
+
+#demo {
+    color: forestgreen;
+}
+
+h3 {
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px 0px 20px 0px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+
+li {
+    text-align: center;
+    list-style: none;
+}
+
+i {
+    padding: 0px 3px;
+}
