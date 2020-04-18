@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        
+        html {
+            scroll-behavior: smooth;
+            font-size: 62.5%;
+            color: black;
+            font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+            font-weight: 700;
+        }
+        
+        .container {
+            flex-wrap: wrap;
+            padding: 10px;
+            align-items: center;
+            justify-content: space-between;
+            display: flex;
+            min-width: 900px;
+            margin: 0 auto;
+        }
+        
+        .row {
+            position: relative;
+            width: 200px;
+            height: 200px;
+            background-color: aquamarine;
+        }
+        
+        .overday {
+            opacity: 0;
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            background-color: black;
+            top: 10%;
+            left: 10%;
+        }
+        
+        .overday:hover {
+            opacity: 0.7;
+            transition-duration: 0.5s;
+        }
+        
+        .block {
+            width: 200px;
+            height: 200px;
+            background-color: aquamarine;
+            position: relative;
+        }
+        
+        .block__center {
+            opacity: 0;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-color: black;
+            top: -10%;
+            left: 0;
+        }
+        
+        .block__center:hover {
+            opacity: 1;
+            transition-duration: 0.5s;
+        }
+        
+        .list {
+            width: 200px;
+            height: 200px;
+            background-color: aquamarine;
+            position: relative;
+        }
+        
+        .list__menu {
+            opacity: 0;
+            width: 100%;
+            height: 100%;
+            background-color: black;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%)
+        }
+        
+        .list__menu:hover {
+            opacity: 0.9;
+            transition-duration: 1s;
+            width: 50%;
+            height: 50%;
+        }
+        
+        img {
+            width: 200px;
+            height: 200px;
+            border-radius: 20%;
+        }
+        
+        img:hover {
+            border: yellowgreen double 10px;
+            transition-duration: 1s;
+        }
+        
+        .listt {
+            width: 200px;
+            height: 200px;
+            background-color: aquamarine;
+            position: relative;
+        }
+        
+        .list__menuu {
+            opacity: 0;
+            width: 100%;
+            height: 100%;
+            background-color: black;
+            position: absolute;
+            top: 30%;
+            left: 50%;
+            transform: translate(-50%, -50%)
+        }
+        
+        .list__menuu:hover {
+            opacity: 0.9;
+            transition-duration: 1s;
+            width: 50%;
+            height: 50%;
+        }
+    </style>
+    <div class="container">
+        <div class="row">
+            <div class="overday">
+            </div>
+        </div>
+        <div class="block">
+            <div class="block__center"></div>
+        </div>
+        <div class="list">
+            <div class="list__menu"></div>
+        </div>
+        <div class="menu__content">
+            <div class="img">
+                <img src="./cabin.png" width="100%" alt="">
+            </div>
+        </div>
+        <div class="listt">
+            <div class="list__menuu"></div>
+        </div>
+
+    </div>
+</body>
+
+</html>
