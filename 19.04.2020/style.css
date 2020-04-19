@@ -194,6 +194,11 @@ img {
     padding: 10px 190px;
 }
 
+.let {
+    background-color: white;
+    color: black;
+}
+
 #red {
     padding: 15px;
     color: tomato;
