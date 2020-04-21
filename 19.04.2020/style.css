@@ -11,10 +11,7 @@ html {
 }
 
 .container {
-    background-image: url(./bg-masthead.jpg);
-    opacity: 0.85;
-    color: white;
-    min-width: 1000px;
+    width: 1050px;
     margin: 0 auto;
 }
 
@@ -43,7 +40,11 @@ a {
 }
 
 .add {
-    padding: 90px 200px;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../19.04.2020/bg-masthead.jpg);
 }
 
 ul {

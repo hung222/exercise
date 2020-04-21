@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        .container {
+            width: 1050px;
+            margin: 0 auto;
+        }
+        
+        .row {
+            flex-wrap: wrap;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .img {
+            width: calc(100%/3 - 10px);
+            position: relative;
+        }
+        
+        .overlay {
+            width: 100%;
+            position: absolute;
+            background-color: aquamarine;
+            height: 100%;
+            top: 0;
+            left: 0;
+            opacity: 1;
+            display: flex;
+        }
+        
+        .overlay:hover {
+            opacity: 0.5;
+            transition-duration: 1s;
+        }
+        
+        h2 {
+            /* margin: auto; */
+        }
+    </style>
+    <div class="container">
+        <div class="row">
+            <div class="img">
+                <img src="../15.04.2020/ex1/assets/img/cabin.png" width="100%" alt="">
+                <div class="overlay">
+
+                    <h2>+</h2>
+                </div>
+            </div>
+            <div class="img">
+                <img src="../15.04.2020/ex1/assets/img/cabin.png" width="100%" alt="">
+            </div>
+            <div class="img"> <img src="../15.04.2020/ex1/assets/img/cabin.png" width="100%" alt=""></div>
+
+        </div>
+    </div>
+</body>
+
+</html>
