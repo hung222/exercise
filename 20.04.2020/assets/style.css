@@ -1,0 +1,216 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu {
+    width: 1050px;
+    margin: 0 auto;
+    color: gray;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: blueviolet;
+}
+
+.acti {
+    font-size: 15px;
+}
+
+.acti h1 {
+    padding: 20px;
+}
+
+.back h1 {
+    padding: 10px 0;
+}
+
+.container {
+    height: 10vh;
+    box-shadow: 0 1px 0 0 #888;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+    padding: 10px;
+}
+
+.acti h1 {
+    padding: 10px 0;
+}
+
+.ac {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 40vh;
+}
+
+.big {
+    font-size: 15px;
+}
+
+big h1 {
+    text-align: center;
+}
+
+big a {
+    text-align: center;
+}
+
+.big2 {
+    padding: 10px 10px;
+}
+
+.tem1 {
+    padding: 10px 10px;
+}
+
+.card a {
+    padding: 0px 10px;
+}
+
+.card {
+    font-size: 20px;
+    padding: 40px 0;
+}
+
+p {
+    padding: 10px 0;
+}
+
+h1 {
+    padding: 10px 0;
+}
+
+.ba {
+    height: 70vh;
+    background-image: url(./woman-1807533_1280.webp);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.list {
+    width: 100%;
+    padding: 20px 0 0 0;
+}
+
+a:hover {
+    color: slateblue;
+}
+
+.list__menu {
+    width: 100%;
+    display: flex;
+}
+
+.big {
+    width: 65%;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+.small {
+    width: 34%;
+    padding: 0 0 0 10px;
+    font-size: 14px;
+}
+
+.big2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tem1 {
+    width: 50%;
+}
+
+.tem2 {
+    width: 50%;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about {
+    width: 100%;
+    color: black;
+}
+
+.iocne {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card a {
+    width: 30%;
+}
+
+.box {
+    padding: 30px;
+}
+
+.bottom {
+    background-color: gainsboro;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 50vh;
+}
+
+.you ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li {}
+
+.cat ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.cat ul a {
+    box-shadow: 0 1px 0 0 #888;
+}
+
+a img:hover {
+    opacity: 0.5;
+    transition-duration: 0.5s;
+}
