@@ -1,0 +1,268 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrap {
+    overflow: hidden;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h1 {
+    font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    ;
+}
+
+p {
+    font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color: #6c757d;
+}
+
+.menu {
+    width: 100%;
+    padding: 20px 50px;
+}
+
+.back {
+    font-size: 20px;
+    color: blueviolet;
+    text-align: center;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(./woman-1807533_1280.webp);
+    height: 100vh;
+}
+
+.dog {
+    display: flex;
+}
+
+.list__menu {
+    padding: 10px 20px;
+    font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.list {
+    padding: 0 20px 0 0;
+}
+
+.big h1 {
+    padding: 30px 0;
+}
+
+.miu {
+    text-align: center;
+}
+
+.banana img {
+    border-radius: 30%;
+}
+
+.miu p {
+    color: #888888;
+}
+
+.cardo {
+    position: relative;
+}
+
+.block {
+    padding: 30px;
+    font-size: 15px;
+    text-align: center;
+    background-color: floralwhite;
+}
+
+.cardo img {
+    border-radius: 10%;
+}
+
+.grade {
+    padding: 30px;
+    font-size: 15px;
+    text-align: center;
+    color: #888888;
+}
+
+.block p {
+    color: #888888;
+}
+
+.block h1 {
+    color: darkorange;
+}
+
+.con {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: darkmagenta;
+}
+
+.con:hover {
+    opacity: 0.6;
+    transition-duration: 1s;
+}
+
+.list__menu a {
+    text-decoration: none;
+    color: cornsilk;
+}
+
+.big a {
+    padding: 20px;
+    background-color: darkgreen;
+    text-decoration: none;
+    color: darkkhaki;
+    border-radius: 5%;
+}
+
+.big {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.list {
+    display: flex;
+}
+
+#q {
+    left: 80px;
+    padding: 30px 0;
+}
+
+.list li {
+    padding: 0 10px;
+    list-style: none;
+}
+
+.ba {
+    background-color: orange;
+    padding: 0 10px;
+}
+
+.pig img {
+    border-radius: 50%;
+    width: 40%;
+}
+
+.school {
+    width: 100%;
+}
+
+.anh img {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+}
+
+.clas {
+    display: flex;
+    margin-right: 50%;
+}
+
+.clas1 {
+    display: flex;
+    padding: 0 0 0 50%;
+}
+
+.chu {
+    text-align: right;
+}
+
+.clas1 .chu {
+    text-align: left;
+}
+
+@media(min-width:769px) {
+    .list .ba {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .list a {
+        display: none;
+    }
+}
+
+
+}
+@media (max-width: 991px) {
+    .clas {
+        flex-direction: column;
+    }
+    
+    .clas1 {
+        flex-direction: column;
+        padding: 0;
+    }
+    
+    .chu {
+        text-align: left;
+    }
+    
+    .clas1 .chu {
+        margin-right: 50%;
+    }
+}
+.img1 img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.total {
+    background-color: lavenderblush;
+    padding: 30px 0;
+}
+.small {
+    text-align: center;
+    padding: 30px 0;
+}
+.about {
+    text-align: center;
+    padding: 20px;
+}
+.ac input {
+    width: 100%;
+    padding: 15px 200px;
+}
+.ac {
+    padding: 10px;
+}
+.j input {
+    margin-top: 6px;
+    width: 100%;
+    padding: 85px 150px;
+}
+.back2 {
+    text-align: center;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(./hoa.jpg);
+}
+.col-12 .j input {
+    padding: 15px 200px;
+}
