@@ -1,0 +1,245 @@
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-size: 62.5%;
+        }
+        
+        ul,
+        ol {
+            list-style: none;
+        }
+        /* ====================== header====================== */
+        
+        .header {
+            color: rgba(255, 255, 255, 0.5);
+            position: fixed;
+            width: 100%;
+            z-index: 999;
+        }
+        
+        .header .header__content {
+            padding: 0 8rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        
+        .header .header__content .header__menu {
+            display: flex;
+        }
+        
+        .header .header__content .header__menu li {
+            padding: 2rem 0;
+        }
+        
+        .header .header__content .header__menu li a {
+            color: white;
+            padding: 1.8rem 1.3rem;
+            text-decoration: none;
+        }
+        /* =============================banner============================= */
+        
+        .header .menu__small a {
+            border: solid gray 1px;
+            background-color: gray;
+            color: honeydew;
+            padding: 1rem;
+            text-decoration: none;
+        }
+        
+        .wrapper {
+            font-size: 1rem;
+        }
+        
+        .banner {
+            color: rgb(218, 218, 218);
+            height: 100vh;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+            background-image: url(../img/nen.jpg);
+        }
+        
+        .banner .banner__overlay .banner__content a {
+            text-decoration: none;
+            width: 100%;
+            border: solid cadetblue;
+            padding: 0.7rem;
+            color: white;
+            background-color: rgb(100, 161, 157);
+        }
+        
+        .banner .banner__overlay .banner__content h1 {
+            font-family: 'Varela Round', sans-serif;
+            width: 100%;
+            font-size: 7rem;
+        }
+        
+        .banner .banner__overlay .banner__content P {
+            font-family: 'Nunito', sans-serif;
+            padding: 3rem 0;
+        }
+        
+        .banner .banner__button {
+            padding: 1rem;
+        }
+        
+        .banner .banner__overlay {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            top: 0;
+            left: 0;
+            background-color: rgba(0, 0, 0, 0.363);
+        }
+        /* ==============================buitl========================= */
+        
+        .built {
+            background-color: black;
+        }
+        
+        .built .built__center {
+            color: rgba(255, 255, 255, 0.5);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 20px 0;
+        }
+        /* ==============================phone======================== */
+        
+        .phone .phone__center {
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.603);
+        }
+        /* ==============================shoreline========================= */
+        
+        .shoreline {
+            padding: 5rem 0;
+        }
+        
+        .shoreline .shoreline__text {
+            position: absolute;
+            top: 50%;
+            transform: translate(0, -50%);
+        }
+        /* =====================gallery================ */
+        
+        .gallery .text {
+            background-color: black;
+            width: 100%;
+            height: 100%;
+            color: white;
+            padding: 1.5rem;
+            text-align: left;
+        }
+        
+        .gallery .container .row .col-lg-6 {
+            padding: 0;
+        }
+        /* ==========================email===================== */
+        
+        .email {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image: url(../img/bg-signup.jpg);
+        }
+        
+        .email .color__family {
+            background-color: rgba(0, 0, 0, 0.383);
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        
+        .email .color__family .subscribe input {
+            height: 3rem;
+            width: 25rem;
+            border-radius: 5%;
+        }
+        
+        .email .color__family .subscribe h1 {
+            padding: 20px 0;
+        }
+        
+        .email .color__family .subscribe a {
+            color: white;
+            border-radius: 10%;
+            text-decoration: none;
+            background-color: cadetblue;
+            padding: 10px 20px;
+            border: rgb(100, 161, 157) solid 1px;
+        }
+        /* ==========================contact================== */
+        
+        .contact {
+            background-color: black;
+        }
+        
+        .contact .contact__chil {
+            white-space: nowrap;
+            text-align: center;
+            background-color: white;
+            padding: 3rem;
+            border-radius: 10px;
+        }
+        
+        .contact .row {
+            padding: 5rem;
+        }
+        /* =================================footer============== */
+        
+        .footer {
+            background-color: black;
+            text-align: center;
+            color: white;
+            padding: 5rem;
+        }
+        
+        @media(min-width:992px) {
+            .header .menu__small {
+                display: none;
+            }
+        }
+        
+        @media(max-width:991px) {
+            .shoreline .shoreline__text {
+                text-align: center;
+                padding: 3.5rem 0 0 0;
+            }
+            .gallery .text {
+                text-align: center;
+            }
+            .contact .container .col-md-12 {
+                padding: 1.5rem 0;
+            }
+            .header .menu__small {
+                display: block;
+            }
+            .header .header__menu a {
+                display: none;
+            }
+        }
+        
+        @media(max-width: 423px) {
+            .banner .banner__content h1 {
+                font-size: 3rem;
+            }
+        }
