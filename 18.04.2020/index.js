@@ -1,0 +1,14 @@
+arr=[1,2,3,4,5,6,7,8,9];
+n=9;
+arr2=[];
+arr3=[];
+dem=0;
+  for(i=1;i<=n;i++){
+    arr.filter(x=>{
+		 if(x==i){
+		dem++;
+           break;		
+		 }
+	});
+  }
+  console.log(dem);

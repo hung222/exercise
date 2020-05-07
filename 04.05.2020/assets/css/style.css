@@ -324,39 +324,57 @@ li a {
 .touch {
     color: white;
     font-size: 1rem;
+    padding: 3rem 0;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(../img/contact-bg\ \(1\).jpg);
-}
+    background-image: url(../img/contact-bg.jpg);
 
-.touch .touch__text {
+}
+.touch .touch__title{
     text-align: center;
-    padding: 5rem 0;
-}
+    padding-bottom: 4rem;
 
-.contact {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 5px solid green;
-    width: 60%;
 }
+.touch input {
+    font-size: 14px;
+    outline: none;
+    width: 100%;
+    padding: 1rem 2rem;
+    border: 1px solid rgb(122, 122, 122);
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+  
+}
+.touch input:focus{
+border: 1px solid rgb(45, 219, 97);
+}
+   .touch__form{
+       background-color: white;
+       padding: 2rem 1.5rem;
+       border: 5px solid rgb(45, 219, 97);
+   }
+.touch textarea {   
+        font-size: 14px;
+    border: 1px solid rgb(122, 122, 122);
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+    outline: none;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+}.touch textarea:focus{
+    border: 1px solid rgb(45, 219, 97);
+    }
+    .touch__form .touch__btn{
+        padding: 2rem 0;
+       margin: 0 auto;
+    }
+    .touch__form .touch__btn a{
+        color: white;
+        text-decoration: none;
+    }
 
-.touch .messenger .contact .form__group {
-    padding: 1rem 0;
-    transform: translate(20%, 0);
-}
-
-.touch .messenger .contact .form__group input {
-    padding: 20px 30px;
-}
-
-.messenger__center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 
 /* ============start services============ */
