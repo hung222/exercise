@@ -8,15 +8,24 @@ body {
     font-size: 62.5%;
 }
 
+a:hover {
+    color: blueviolet;
+}
+
+img:hover {
+    opacity: 0.5;
+    transition: 1s;
+}
+
 ul,
 li {
     list-style: none;
 }
 
 a {
+    color: black;
     text-decoration: none;
     font-size: 1rem;
-    color: black;
 }
 
 i {
@@ -48,6 +57,10 @@ p {
     padding: 15px 100px;
 }
 
+.header h1:hover {
+    color: blueviolet;
+}
+
 .header ul {
     display: flex;
     justify-content: center;
@@ -69,6 +82,17 @@ p {
 
 
 /* ===========start another======== */
+
+.real__more a {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 2rem;
+}
+
+.real__more a:hover {
+    color: blueviolet;
+}
 
 .another {
     text-align: center;
