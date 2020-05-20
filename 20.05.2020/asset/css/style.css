@@ -1,0 +1,188 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 62.5%;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: black;
+}
+
+i {
+    font-size: 1rem;
+}
+
+h1 {
+    font-family: 'Lora', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito', sans-serif;
+}
+
+p {
+    font-family: 'Lora', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1rem;
+}
+
+
+/* ============start header=========== */
+
+.header {
+    border: solid 1px #888888;
+    box-shadow: #888888;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 100px;
+}
+
+.header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header ul li a:hover {
+    color: blueviolet;
+}
+
+.header ul li a {
+    font-size: 10px;
+}
+
+.header ul li {
+    padding: 1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* ===========start another======== */
+
+.another {
+    text-align: center;
+    padding: 3rem;
+}
+
+#demo {
+    font-size: 28px;
+    Color: #a161bf;
+}
+
+#demol {
+    font-family: 'Lora', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    Color: #999999
+}
+
+
+/* ===================real more========= */
+
+.real__more {
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+    background-image: url(../img/photo-1431578500526-4d9613015464-1920x550.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.real__more .real__center {
+    padding: 6rem 0;
+}
+
+
+/* ==========start post========= */
+
+.post {
+    text-align: center;
+}
+
+.post p {
+    padding: 10px;
+    Color: #696969;
+}
+
+.post .left__header {
+    padding: 3rem 0;
+}
+
+
+/* ===============start format========== */
+
+.format__list {
+    display: flex;
+    align-items: center;
+}
+
+.format__list .image {
+    padding: 10px 0;
+    width: 50%;
+    height: 50%;
+}
+
+.format__list p {
+    font-size: 12px;
+}
+
+.input {
+    padding: 2rem 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.input input {
+    border: solid 2px #888888;
+    padding: 8px 25px;
+}
+
+.input a {
+    border: solid 1px #888888;
+    padding: 8px 0;
+    background-color: #888888;
+    color: white;
+}
+
+
+/* ========start cate======== */
+
+.cate .boc {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer {
+    color: white;
+    background-color: #999999;
+    padding: 5rem 1rem;
+    text-align: center;
+}
+
+@media(max-width:426px) {
+    .header {
+        padding: 10px;
+    }
+    .header ul li a {
+        font-size: 8px;
+    }
+    .header ul li {
+        padding: 8px;
+    }
+}
