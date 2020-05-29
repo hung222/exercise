@@ -29,6 +29,10 @@
         p {
             font-size: 1rem;
         }
+        
+        img {
+            display: block;
+        }
         /* ==========start header======== */
         
         .header {
@@ -128,8 +132,19 @@
         }
         
         @media(max-width: 768px) {
-            .hello .fish {
-                padding: 0;
+            .booking__option input {
+                width: 16rem;
+                height: 2.5rem;
+            }
+            textarea {
+                width: 16rem;
+                height: 4rem;
+            }
+            .fish {
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                padding: 0px;
             }
             .hello .fish .fish__1 {
                 padding: 0;
@@ -149,13 +164,6 @@
             #text {
                 color: rgba(132, 132, 132, 0.6);
                 text-align: center;
-                padding: 0;
-            }
-            .hello .fish {
-                flex-direction: column;
-                padding: 10px
-            }
-            .hello .fish .fish__1 {
                 padding: 0;
             }
         }
@@ -247,12 +255,12 @@
         .hello .fish {
             display: flex;
             align-items: center;
-            justify-content: space-between;
+            justify-content: center;
             padding: 0px 130px 0 75px;
         }
         
         .hello .fish .fish__1 {
-            padding: 0 3rem 0 0;
+            padding: 0;
         }
         
         .hello .fish p {
@@ -387,7 +395,7 @@
         }
         
         .may__center {
-            padding: 2rem 3rem 6rem 0;
+            padding: 2rem 3rem 6rem 1rem;
         }
         
         .may__center p {
