@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+
+/* ====================== header====================== */
+
+.header .header__content {
+    padding: 0 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .header__content .header__menu {
+    display: flex;
+}
+
+.header .header__content .header__menu li {
+    padding: 2rem 0;
+}
+
+.header .header__content .header__menu li a {
+    color: white;
+    padding: 1.8rem 1.3rem;
+    text-decoration: none;
+}
+
+
+/* =============================banner============================= */
+
+.banner {
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-image: url(../img/nen.jpg);
+}
+
+.banner .banner__overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.198);
+}
+
+.banner .banner__overlay .banner__center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}

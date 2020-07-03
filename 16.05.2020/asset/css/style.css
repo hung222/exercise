@@ -27,7 +27,6 @@ ol {
 }
 
 .header {
-    white-space: nowrap;
     position: fixed;
     width: 100%;
     z-index: 999;
@@ -416,7 +415,7 @@ footer .footer__left {
     width: 50%;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 576576px) {
     .header {
         font-size: 0.5rem;
     }
@@ -468,14 +467,90 @@ footer .footer__left {
     .footer {
         font-size: 0.5rem;
     }
-    .center {
-        padding: 0;
-    }
     .footer {
         padding: 10px;
     }
     .header .header__menu {
         padding: 10px;
+    }
+    .header .header__menu ul li input {
+        padding: 0px;
+    }
+    .list__logo h1 {
+        font-size: 8px;
+    }
+}
+
+@media (max-width: 768px) {
+    .center .center__big {
+        width: 50%;
+    }
+    .center__small {
+        width: 50%;
+    }
+    .good {
+        padding: 70px 0 0 0;
+    }
+    .header {
+        font-size: 0.7rem;
+    }
+    .hot__list .line p {
+        font-size: 0.7rem;
+    }
+    .good .good__conten {
+        font-size: 0.7rem;
+    }
+    .center .list__conten ul a {
+        font-size: 0.7rem;
+    }
+    .vip .vip__img {
+        font-size: 0.7rem;
+    }
+    .plus .plus__header ul {
+        font-size: 0.7rem;
+    }
+    .plus .plus__center h1 {
+        font-size: 0.7rem;
+    }
+    .vip .full__plus ul a {
+        font-size: 0.7rem;
+    }
+    .sort .sort__header {
+        font-size: 0.7rem;
+    }
+    .sort .sort__center ul li a {
+        font-size: 0.7rem;
+    }
+    .center__small p {
+        font-size: 0.7rem;
+    }
+    .center__small .category .category__header {
+        font-size: 0.7rem;
+    }
+    .review .review__header {
+        font-size: 0.7rem;
+    }
+    .hot__header {
+        font-size: 0.7rem;
+    }
+    .hot__list .line a {
+        font-size: 0.7rem;
+    }
+    .hot__list .line h1 {
+        font-size: 0.7rem;
+    }
+    .footer {
+        font-size: 0.7rem;
+    }
+    .center {
+        padding: 0;
+        margin: 0;
+    }
+    .footer {
+        padding: 8px;
+    }
+    .header .header__menu {
+        padding: 8px;
     }
     .header .header__menu ul li input {
         padding: 0px;

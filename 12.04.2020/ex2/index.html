@@ -3,34 +3,334 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fish House</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script src="https://kit.fontawesome.com/58c378b9ed.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <div class="container">
-        <div class="block">
-            <img src="./assets/img/tải xuống.jfif" alt="" width="100%">
-            <b>Start BootStrap</b>
-            <ul>
-                <li>THEMES</li>
-                <li>TEMPLATES</li>
-                <li>IPPETS</li>
-                <li>LEARN</li>
-                <li>RESOURCES</li>
+    <div id="topPage"></div>
+    <div class="navigation">
+        <div class="navigation__wrap dflex container">
+            <div class="navigation__button"><i class="fas fa-bars"></i></div>
+            <div class="navigation__logo"><img src="./images/logo/logo.png" alt="" width="181px"></div>
+            <ul class="navigation__menu dflex">
+                <li class="menu__item"><a href="#" class="menu__link--active menu__link">Home</a>
+                    <ul class="menu__sub">
+                        <li class="submenu__item"><a href="./index.html" class="submenu__link submenu__link--active">Home</a></li>
+                        <li class="submenu__item"><a href="#" class="submenu__link">Home 2</a></li>
+                    </ul>
+                </li>
+                <li class="menu__item"><a href="ourservice.html" class="menu__link">Our Menu</a></li>
+                <li class="menu__item"><a href="#" class="menu__link">Location</a></li>
+                <li class="menu__item"><a href="#" class="menu__link">Features</a>
+                    <ul class="menu__sub">
+                        <li class="submenu__item"><a href="#" class="submenu__link arrow">About</a>
+                            <ul class="submenu__submenu2">
+                                <li class="submenu2__item"><a href="#" class="submenu2__link">About Style 1</a></li>
+                                <li class="submenu2__item"><a href="#" class="submenu2__link">About Style 2</a></li>
+                            </ul>
+                        </li>
+                        <li class="submenu__item"><a href="#" class="submenu__link">Shop</a></li>
+                        <li class="submenu__item"><a href="#" class="submenu__link arrow">Blog</a>
+                            <ul class="submenu__submenu2">
+                                <li class="submenu2__item"><a href="#" class="submenu2__link">Classic with sidebar</a></li>
+                                <li class="submenu2__item"><a href="#" class="submenu2__link">Classic without sidebar</a></li>
+                            </ul>
+                        </li>
+                        <li class="submenu__item"><a href="#" class="submenu__link">Shortcodes</a></li>
+                        <li class="submenu__item"><a href="#" class="submenu__link">Typography</a></li>
+                        <li class="submenu__item"><a href="#" class="submenu__link arrow">Tools</a>
+                            <ul class="submenu__submenu2">
+                                <li class="submenu2__item"><a href="#" class="submenu2__link">Video Tutorial</a></li>
+                                <li class="submenu2__item"><a href="#" class="submenu2__link">Support</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="menu__item"><a href="#" class="menu__link">Gallery</a>
+                    <ul class="menu__sub">
+                        <li class="submenu__item"><a href="./gridGallery.html" class="submenu__link">Grid</a></li>
+                        <li class="submenu__item"><a href="#" class="submenu__link">Massory</a></li>
+                        <li class="submenu__item"><a href="./cobbleGallery.html" class="submenu__link">Cobbles</a></li>
+                    </ul>
+                </li>
+                <li class="menu__item"><a href="#" class="menu__link">Contacts</a></li>
             </ul>
-        </div>
-        <div class="block__left">
-            <p>SHOP</p>
-            <p>BLOG</p>
-            <i class="fa fa-cloud" style="font-size:20px;"></i>
-            <i class="fa fa-heart" style="font-size:20px;"></i>
-            <i class="fa fa-car" style="font-size:20px;"></i>
-
+            <div class="navigation__booking"><a href="#">Book a table online</a></div>
         </div>
     </div>
+    <div id="close__menu"></div>
+    <ul class="menu__moblie">
+        <li class="menu__item"><a href="#" class="menu__link--active menu__link">Home <i class="fas fa-angle-down"></i></a>
+            <ul class="menu__sub">
+                <li class="submenu__item"><a href="./index.html" class="submenu__link submenu__link--active">Home</a></li>
+                <li class="submenu__item"><a href="#" class="submenu__link">Home 2</a></li>
+            </ul>
+        </li>
+        <li class="menu__item"><a href="ourservice.html" class="menu__link">Our Menu</a></li>
+        <li class="menu__item"><a href="#" class="menu__link">Location</a></li>
+        <li class="menu__item"><a href="#" class="menu__link">Features <i class="fas fa-angle-down"></i></a>
+            <ul class="menu__sub">
+                <li class="submenu__item"><a href="#" class="submenu__link arrow">About <i class="fas fa-angle-down"></i></a>
+                    <ul class="submenu__submenu2">
+                        <li class="submenu2__item"><a href="#" class="submenu2__link">About Style 1</a></li>
+                        <li class="submenu2__item"><a href="#" class="submenu2__link">About Style 2</a></li>
+                    </ul>
+                </li>
+                <li class="submenu__item"><a href="#" class="submenu__link">Shop</a></li>
+                <li class="submenu__item"><a href="#" class="submenu__link arrow">Blog <i class="fas fa-angle-down"></i></a>
+                    <ul class="submenu__submenu2">
+                        <li class="submenu2__item"><a href="#" class="submenu2__link">Classic with sidebar</a></li>
+                        <li class="submenu2__item"><a href="#" class="submenu2__link">Classic without sidebar</a></li>
+                    </ul>
+                </li>
+                <li class="submenu__item"><a href="#" class="submenu__link">Shortcodes</a></li>
+                <li class="submenu__item"><a href="#" class="submenu__link">Typography</a></li>
+                <li class="submenu__item"><a href="#" class="submenu__link arrow">Tools <i class="fas fa-angle-down"></i></a>
+                    <ul class="submenu__submenu2">
+                        <li class="submenu2__item"><a href="#" class="submenu2__link">Video Tutorial</a></li>
+                        <li class="submenu2__item"><a href="#" class="submenu2__link">Support</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li class="menu__item"><a href="#" class="menu__link">Gallery <i class="fas fa-angle-down"></i></a>
+            <ul class="menu__sub">
+                <li class="submenu__item"><a href="./gridGallery.html" class="submenu__link">Grid</a></li>
+                <li class="submenu__item"><a href="#" class="submenu__link">Massory</a></li>
+                <li class="submenu__item"><a href="./cobbleGallery.html" class="submenu__link">Cobbles</a></li>
+            </ul>
+        </li>
+        <li class="menu__item"><a href="#" class="menu__link">Contacts</a></li>
+    </ul>
+    <div class="scrollOnTop dflex"><a href="#topPage"><i class="fas fa-angle-up"></i></a></div>
+    <div class="slider"><img src="./images/home/slide-01.jpg" alt="" style="opacity: 0; width: 100%; object-fit: cover;">
+        <div class="slider__item dflex active"><img src="./images/home/slide-01.jpg" alt="">
+            <div class="slider__caption">
+                <h2>if it swims we have it</h2>
+                <p>Eat. Drink. Lounge.</p>
+            </div>
+        </div>
+        <div class="slider__item dflex"><img src="./images/home/slide-02.jpg" alt="">
+            <div class="slider__caption">
+                <h2>Fresh Catches Daily</h2>
+                <p>Eat. Drink. Lounge.</p>
+            </div>
+        </div>
+        <div class="slider__item dflex"><img src="./images/home/slide-03.jpg" alt="">
+            <div class="slider__caption">
+                <h2>Fresh. Fast. Tasty</h2>
+                <p>Eat. Drink. Lounge.</p>
+            </div>
+        </div>
+    </div>
+    <div class="post row">
+        <div class="post__left col-12 col-sm-4"><img data-src="./images/home/post-image.jpg" src="" alt=""></div>
+        <div class="post__right col-12 col-sm-8">
+            <h2 class="post__title">Hello And Welcome</h2>
+            <div class="post__content row">
+                <div class="content__col1 col-8 col-sm-7">
+                    <div class="content__row">
+                        <h3>Fish House Philosophy</h3>
+                        <p>For the best in food, service, value and atmosphere, you can’t choose our restaurant. We guarantee you the freshest seafood, delivered daily to our dock, prepared to your liking.</p>
+                    </div>
+                    <div class="content__row">
+                        <h3>About Our Location</h3>
+                        <p>All our locations are providing a wonderful open-air venue to enjoy meal all year round, we offer both indoor and alfresco dining and our focus is on serving the absolute freshest fish and seafood.</p>
+                    </div>
+                </div>
+                <div class="content__col2 col-4">
+                    <div class="content__item">
+                        <p class="title">Phone</p>
+                        <p>800-123-1234</p>
+                    </div>
+                    <div class="content__item">
+                        <p class="title">Location</p>
+                        <p>123, New Lenox,<br>Chicago, IL 60606</p>
+                    </div>
+                    <div class="content__item">
+                        <p class="title">Hours</p>
+                        <p><strong>M-F</strong> 11am - 2am</p>
+                        <p><strong>Sa</strong> 10am - 3am</p>
+                        <p><strong>Su</strong> 10am - 2am</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="features dflex">
+        <div class="features__items"><img data-src="./images/home/01-featured.jpg" src="" alt=""> <a href="#" class="features__caption">Daily Catch</a></div>
+        <div class="features__items"><img data-src="./images/home/02-featured.jpg" src="" alt=""> <a href="#" class="features__caption">Fresh Seafood</a></div>
+        <div class="features__items"><img data-src="./images/home/03-featured.jpg" src="" alt=""> <a href="#" class="features__caption">Best Wines</a></div>
+    </div>
+    <div class="news">
+        <h2>What's New?</h2>
+        <div class="news__wrap row">
+            <div class="news__item col-sm-6 col-md-4 col-12">
+                <div class="news__image"><img data-src="./images/home/news-01.jpg" src="" alt="">
+                    <div class="news__overlay dflex"><i class="fas fa-link"></i></div>
+                </div><a href="#" class="news__date">May 19, 2016</a> <a href="#" class="news__title">Crab Days!</a>
+                <p>Lorem ipsum dolor sit met, conteturing elit. Phasellus pellen tesque osure risus lacinia tristique usce sed massa</p>
+            </div>
+            <div class="news__item col-sm-6 col-md-4 col-12">
+                <div class="news__image"><img data-src="./images/home/news-02.jpg" src="" alt="">
+                    <div class="news__overlay dflex"><i class="fas fa-link"></i></div>
+                </div><a href="#" class="news__date">May 19, 2016</a> <a href="#" class="news__title">Craft Beers Week</a>
+                <p>Lorem ipsum dolor sit met, conteturing elit. Phasellus pellen tesque osure risus lacinia tristique usce sed massa</p>
+            </div>
+            <div class="news__item col-sm-6 col-md-4 col-12">
+                <div class="news__image"><img data-src="./images/home/news-03.jpg" src="" alt="">
+                    <div class="news__overlay dflex"><i class="fas fa-link"></i></div>
+                </div><a href="#" class="news__date">May 19, 2016</a> <a href="#" class="news__title">Dolce Vita!</a>
+                <p>Lorem ipsum dolor sit met, conteturing elit. Phasellus pellen tesque osure risus lacinia tristique usce sed massa</p>
+            </div>
+        </div>
+    </div>
+    <div class="gallery dflex">
+        <div class="col-md-6 col-12 gallery__col dflex">
+            <div class="gallery__item col-12 col-md-6"><img class="gallery__image" data-src="./images/home/gallery-01.jpg" alt="">
+                <div class="gallery__popup">
+                    <p>Daily Catch</p><a href="#">Southwestern-Style Shrimp ...</a>
+                    <p class="gallery__price">$23</p>
+                </div>
+            </div>
+            <div class="gallery__item col-12 col-md-6"><img class="gallery__image" data-src="./images/home/gallery-02.jpg" alt="">
+                <div class="gallery__popup">
+                    <p>Daily Catch</p><a href="#">Fish Kebab with Vegetables</a>
+                    <p class="gallery__price">$34</p>
+                </div>
+            </div>
+            <div class="gallery__item col-6"><img class="gallery__image" data-src="./images/home/gallery-03.jpg" alt="">
+                <div class="gallery__popup">
+                    <p>Daily Catch</p><a href="#">Lemon Pepper Shrimp Scampi</a>
+                    <p class="gallery__price">$20</p>
+                </div>
+            </div>
+            <div class="gallery__item col-6"><img class="gallery__image" data-src="./images/home/gallery-04.jpg" alt="">
+                <div class="gallery__popup">
+                    <p>Daily Catch</p><a href="#">Pan-Fried Trout with Tomat...</a>
+                    <p class="gallery__price">$24</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 gallery__col">
+            <div class="gallery__item col-12"><img class="gallery__image" data-src="./images/home/gallery-05.jpg" alt="">
+                <div class="gallery__popup">
+                    <p>Daily Catch</p><a href="#">Broiled Lobster Tails</a>
+                    <p class="gallery__price">$40</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="gallery__button"><a href="./ourservice.html">Full Menu</a></div>
+    <div class="news promise">
+        <h2 class="promise__title" style="margin-bottom: 78px;">Our Promise</h2>
+        <div class="news__wrap row">
+            <div class="news__item col-md-4 col-6">
+                <h5 href="#" class="news__date">Cook Good</h5>
+                <h3 href="#" class="news__title">We cook seafood like<br>rock stars, truly</h3>
+            </div>
+            <div class="news__item col-md-4 col-6">
+                <h5 href="#" class="news__date">Cook Quick</h5>
+                <h3 href="#" class="news__title">We guess you don’t like<br>to wait for too long</h3>
+            </div>
+            <div class="news__item col-md-4 col-6">
+                <h5 href="#" class="news__date">Sommelier</h5>
+                <h3 href="#" class="news__title">We know everything<br>about wines</h3>
+            </div>
+        </div>
+    </div>
+    <div class="service">
+        <div class="service__row row">
+            <div class="col-sm-6 col-12 service__image"><img data-src="./images/home/service-01.jpg" src="" alt=""></div>
+            <div class="col-sm-6 col-12 service__content">
+                <h6>Chef in House Explains</h6>
+                <h2 class="service__title">Quality to Die For</h2>
+                <p>Meet our chef! Today, he is a culinary talent, passion for fresh seafood, and dedication to all aspects of running a restaurant serve him well as Executive Chef of Seafood Restaurant, a role he earned after many successful years</p>
+                <a href="#" class="service__button">Meet the chef</a>
+            </div>
+        </div>
+        <div class="service__row row">
+            <div class="col-sm-6 col-12 service__content">
+                <h6>Chef in House Explains</h6>
+                <h2 class="service__title">Quality to Die For</h2>
+                <p>Meet our chef! Today, he is a culinary talent, passion for fresh seafood, and dedication to all aspects of running a restaurant serve him well as Executive Chef of Seafood Restaurant, a role he earned after many successful years</p>
+                <a href="#" class="service__button">Meet the chef</a>
+            </div>
+            <div class="col-sm-6 col-12 service__image"><img data-src="./images/home/service-02.jpg" src="" alt=""></div>
+        </div>
+    </div>
+    <div class="guest">
+        <h2>Happy Guests Say</h2>
+        <div class="guest__wrap container" id="wrap">
+            <div class="guest__items">
+                <div class="guest__item">
+                    <p>"Very good quality of food and service. Vast menu with child friendly items as well as local seafood and even entrees for those who dont like seafood. Also a great bar selection and friendly bar tenders. Plus you can get some fresh
+                        local seafood on your way back home. Great place! Thanks. We absolutely love everything there!"</p><img data-src="./images/home/testimonials-01.jpg" alt="">
+                    <p class="guest__name">Jason M.</p>
+                </div>
+                <div class="guest__item">
+                    <p>"This is a delightful restaurant serving both locally caught and imported sea-foods. The service was fast and the food deliciously prepared as you request it. Plenty to watch on the sound and on the walkways, relaxing way to eat dinner.
+                        They also sell a very large variety of fresh sea foods. We highly recommend this restaurant."</p><img data-src="./images/home/testimonials-02.jpg" alt="">
+                    <p class="guest__name">Penny V.</p>
+                </div>
+                <div class="guest__item" style="margin-right: 20px;">
+                    <p>"Great food! Fresh, quick, friendly, delicious, affordable! Very flexible with orders. Great service! Asked for things from the runners, and they didn’t miss a beat… prompt, courteous, and polite. Great portions! If you want great
+                        seafood though, this place will not disappoint you. I’m glad we visited here. Definitely recommend."</p><img data-src="./images/home/testimonials-03.jpg" alt="">
+                    <p class="guest__name">Kristin L.</p>
+                </div>
+            </div>
+        </div>
+        <div class="guest__control dflex">
+            <div class="guest__button" id="prev"><i class="fas fa-angle-left"></i></div>
+            <div class="guest__button" id="next"><i class="fas fa-angle-right"></i></div>
+        </div>
+    </div>
+    <div class="booking dflex">
+        <h2>Book A Table</h2>
+        <form action="" class="booking__form">
+            <div class="booking__select"><label for="date">Date</label> <input type="date" id="date"></div>
+            <div class="booking__select"><label for="time">Time</label> <select id="time" name="time"><option>12:00 AM</option><option>12:30 AM</option><option>1:00 AM</option><option>1:30 AM</option><option>2:00 AM</option><option>2:30 AM</option><option>3:00 AM</option><option>3:30 AM</option><option>4:00 AM</option><option>4:30 AM</option><option>5:00 AM</option><option>5:30 AM</option><option>6:00 AM</option><option>6:30 AM</option><option>7:00 AM</option><option>7:30 AM</option><option>8:00 AM</option><option>8:30 AM</option><option>9:00 AM</option><option>9:30 AM</option><option>10:00 AM</option><option>10:30 AM</option><option>11:00 AM</option><option>11:30 AM</option><option>12:00 AM</option><option>12:30 AM</option></select></div>
+            <div class="booking__select"><label for="party">Party</label> <select name="party" id="party"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option><option>10</option><option>11</option><option>12</option><option>13</option><option>14</option><option>15</option><option>16</option><option>17</option><option>18</option><option>19</option><option>20</option><option>21</option><option>22</option><option>23</option><option>24</option><option>25</option></select></div>
+            <div class="booking__option"><label for="name">Name</label><br><input type="text" id="name"></div>
+            <div class="booking__option"><label for="email">Email</label><br><input type="text" id="email"></div>
+            <div class="booking__option"><label for="phone">Phone</label><br><input type="text" id="phone"></div>
+            <div class="booking__option"><label for="message">Message</label> <textarea name="message" id="message"></textarea></div>
+            <div class="booking__option"><button type="submit">Request Booking</button></div>
+        </form>
+    </div>
+    <div class="footer">
+        <div class="footer__wrap container">
+            <div class="footer__top row">
+                <div class="footer__item col-sm-4">
+                    <h3 class="footer__title">A Few More Words</h3>
+                    <p>We invite you to enjoy our restaurant's tremendously delicious recipes made from scratch every day especially for you. Enjoy a delicious breakfast, lunch or dinner at our delightful place.</p>
+                </div>
+                <div class="footer__item col-sm-4">
+                    <h3 class="footer__title">Quick Links</h3>
+                    <ul>
+                        <li><a href="#" class="footer__link">Menu</a></li>
+                        <li><a href="#" class="footer__link">Location</a></li>
+                        <li><a href="#" class="footer__link">About</a></li>
+                        <li><a href="#" class="footer__link">Contacts</a></li>
+                    </ul>
+                </div>
+                <div class="footer__item col-sm-4">
+                    <h3 class="footer__title">Stay In Touch</h3>
+                    <div class="footer__input dflex"><input type="text" placeholder="Please, enter your email address."> <i class="fas fa-angle-right"></i></div>
+                    <p>Only monthly news, we promise!</p>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <div class="footer__social dflex"><a href="#"><i class="fab fa-tripadvisor"></i></a> <a href="#"><i class="fab fa-facebook-f"></i></a> <a href="#"><i class="fab fa-twitter"></i></a> <a href="#"><i class="fab fa-instagram"></i></a></div>
+                <p>Ancora © 2016 All Rights Reserved Terms of Use and Privacy Policy</p>
+            </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
 </body>
 
 </html>

@@ -1,75 +1,29 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>web</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <title>Tiêu đề</title>
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
+    <style>
+        .test {
+            background-color: blue;
+        }
+    </style>
+    <script>
+        $(function() {
+            $('div').click(function() {
+                $('div').add('p', this).addClass('test');
+            });
+        });
+    </script>
 </head>
 
 <body>
-    <script>
-        /*padding , margin , flex , algin-item:center,justify-content:space-between, center                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              selector css , cấp độ ưu tiên       
-                                 rem
-                                 **/
-    </script>
-    <div class="menu">
-        <div class="container-fluid">
-            <div class="container">
-                <div class="menu__content">
-                    <div class="menu_left">
-                        <div class="menu_logo">
-                            <h2>START BOOTSTRAP</h2>
-                        </div>
-                    </div>
-                    <ul class="menu_right">
-                        <li>PORTFOLIO</li>
-                        <li>ABOUT</li>
-                        <li>CONTACT</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+    <div>
+        <p>Thành phần p nằm trong div</p>
     </div>
-
-    <div class="blog">
-        <div class="container-fluid">
-            <div class="container">
-                <div class="blog__content">
-                    <div class="blog__card blog1">
-                        <img width="100%" src="./50416197_358295168328562_2477146882166489088_n.jpg" alt="">
-                        <h1>HELLO</h1>
-
-                    </div>
-                    <div class="blog__card blog2">
-
-                    </div>
-                    <div class="blog__card blog3">
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <style>
-        .blog {}
-        
-        .blog .blog__content {
-            display: flex;
-            text-align: center;
-            justify-content: space-between;
-        }
-        
-        .blog .blog__content .blog__card {
-            width: calc(100%/3 - 10px);
-            background-color: aqua;
-        }
-    </style>
-
-
-
-
+    <p>Thành phần p</p>
 </body>
 
 </html>

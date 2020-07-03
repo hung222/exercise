@@ -193,16 +193,17 @@
             background-color: black;
         }
         
+        .contact .contact__center {
+            padding: 5rem;
+        }
+        
         .contact .contact__chil {
             white-space: nowrap;
             text-align: center;
             background-color: white;
             padding: 3rem;
             border-radius: 10px;
-        }
-        
-        .contact .row {
-            padding: 5rem;
+            width: 100%;
         }
         /* =================================footer============== */
         
@@ -238,8 +239,8 @@
             }
         }
         
-        @media(max-width: 423px) {
+        @media(max-width:424px) {
             .banner .banner__content h1 {
-                font-size: 3rem;
+                font-size: 3px;
             }
         }

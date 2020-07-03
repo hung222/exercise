@@ -79,14 +79,8 @@ li {
 }
 
 @media(max-width: 991px) {
-    .header__menu {
-        background-color: dimgrey;
+    .header__list {
         max-height: 0;
-        overflow: hidden;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: flex-start;
-        transition: 0.3s;
     }
     ul {
         flex-direction: column;
@@ -98,7 +92,7 @@ li {
         max-height: 100vh;
     }
     .header {
-        padding: 10px;
+        padding: 0;
     }
     .header ul li a {
         padding: 0;

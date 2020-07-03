@@ -5,62 +5,438 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./asset/css/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./asset/css/grid.css">
+    <script src="https://kit.fontawesome.com/f58278cdb0.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <style>
-        .container {
-            width: 1050px;
-            margin: 0 auto;
-        }
-        
-        .row {
-            flex-wrap: wrap;
-            display: flex;
-            justify-content: space-between;
-        }
-        
-        .img {
-            width: calc(100%/3 - 10px);
-            position: relative;
-        }
-        
-        .overlay {
-            width: 100%;
-            position: absolute;
-            background-color: aquamarine;
-            height: 100%;
-            top: 0;
-            left: 0;
-            opacity: 1;
-            display: flex;
-        }
-        
-        .overlay:hover {
-            opacity: 0.5;
-            transition-duration: 1s;
-        }
-        
-        h2 {
-            /* margin: auto; */
-        }
-    </style>
-    <div class="container">
-        <div class="row">
-            <div class="img">
-                <img src="../15.04.2020/ex1/assets/img/cabin.png" width="100%" alt="">
-                <div class="overlay">
+    <div class="menu">
+        <!-- start header -->
+        <div class="header">
+            <div class="header__back">
+                <div class="header__logo">
+                    <img src="./asset/img/logo.png" width="100%" alt="">
+                </div>
+                <div class="header__list">
+                    <ul>
+                        <div class="father">
+                            <li><a id="red" href="">HOME</a>
+                                <div class="chil">
+                                    <a href="">MENU 1</a>
+                                    <a href="">MENU 2</a>
+                                </div>
+                        </div>
+                        </li>
+                        <li><a id="red" href="">OURMENU</a></li>
+                        <li><a id="red" href="">LOCATION</a></li>
+                        <div class="father">
+                            <li><a id="red" href="">FEATURES</a>
+                                <div class="chil">
+                                    <a href="">ABOUT</a>
+                                    <a href="">SHOP</a>
+                                    <a href="">SHORTCODES</a>
+                                    <a href="">TOOLS</a>
+                                    <a href="">SHOP</a>
+                                </div>
+                            </li>
 
-                    <h2>+</h2>
+                        </div>
+                        <li><a id="red" href="">GALLERY</a></li>
+                        <li><a id="red" href="">CONTACTS</a></li>
+                    </ul>
+                    <div class="header__red">
+                        <a href="">BOOK A TABLE ONLILE</a>
+                    </div>
+
                 </div>
             </div>
-            <div class="img">
-                <img src="../15.04.2020/ex1/assets/img/cabin.png" width="100%" alt="">
+            <div class="humbeger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
             </div>
-            <div class="img"> <img src="../15.04.2020/ex1/assets/img/cabin.png" width="100%" alt=""></div>
-
         </div>
+        <!-- end header -->
+        <!-- start banner -->
+        <div class="banner">
+            <div class="banner__text">
+                <h1>f</h1>
+            </div>
+        </div>
+        <!-- end banner -->
+        <!-- start hello -->
+        <div class="hello">
+            <div class="hello__chil">
+                <div class="hello__text">
+                    <div class="col-lg-4 col-md-6 col-6">
+                        <img src="./asset/img/post-image.jpg" width="100%" height="150%" alt="">
+                    </div>
+                    <div class="col-lg-8 col-md-6 col-6">
+                        <div class="wrap">
+                            <h1 id="text">HELLO AND WELCOME</h1>
+                            <div class="fish">
+                                <div class="fish__1">
+                                    <h1>Fish House Philosophy</h1>
+                                    <p>For the best in food, service, value and atmosphere, you can’t choose our restaurant. We guarantee you the freshest seafood, delivered daily to our dock, prepared to your liking.</p>
+                                    <h1>About Our Location</h1>
+                                    <p>All our locations are providing a wonderful open-air venue to enjoy meal all year round, we offer both indoor and alfresco dining and our focus is on serving the absolute freshest fish and seafood.</p>
+                                </div>
+                                <div class="fish__2">
+                                    <h3>PHONE</h3>
+                                    <p>800-123-1234</p>
+                                    <h3>LOCATION</h3>
+                                    <p>123, New Lenox, Chicago, IL 60606</p>
+                                    <h3>HOURS</h3>
+                                    <p>M-F 11am - 2am Sa 10am - 3am Su 10am - 2am</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end hello -->
+        <!-- start img -->
+        <div class="img">
+            <div class="hello__chil">
+                <div class="hello__text">
+                    <div class="col-lg-4 col-md-12 col-12">
+                        <div class="about">
+                            <h1>DAILY CATCH</h1>
+                            <img src="./asset/img/01-featured.jpg" width="100%" alt="">
+                            <div class="about__list">
+                                <h1>DAILY CATCH</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-12">
+                        <div class="about">
+                            <h1>FRESH SEAFOOD</h1>
+                            <img src="./asset/img/02-featured.jpg" width=" 100% " alt=" ">
+                            <div class="about__list">
+                                <h1>FRESH SEAFOOD</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-12 ">
+                        <div class="about">
+                            <h1>BEST WINES</h1>
+                            <img src="./asset/img/03-featured.jpg " width="100% " alt=" ">
+                            <div class="about__list">
+                                <h1>BEST WINES</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end img -->
+        <!-- start new -->
+        <div class="new">
+            <h1>WHAT'S NEW?</h1>
+        </div>
+        <!-- end new -->
+        <!-- start biru -->
+        <div class="biru">
+            <div class="biru__center">
+                <div class="col-lg-4 col-md-12 col-12">
+                    <div class="biru__img">
+                        <img src="./asset/img/news-01.jpg" width="100%" alt="">
+                        <div class="back"></div>
+                        <div class="icon">
+                            <div class="back__icon"></div>
+                            <i class="fas fa-link" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-12">
+                    <div class="biru__img">
+                        <img src="./asset/img/news-02.jpg" width="100%" alt="">
+                        <div class="back"></div>
+                        <div class="icon">
+                            <div class="back__icon"></div>
+                            <i class="fas fa-link" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-12">
+                    <div class="biru__img">
+                        <img src="./asset/img/news-03.jpg" width="100%" alt="">
+                        <div class="back"></div>
+                        <div class="icon">
+                            <div class="back__icon"></div>
+                            <i class="fas fa-link" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-12">
+                    <div class="may__center">
+                        <i>May 19, 2016</i>
+                        <h1>Crab Days!</h1>
+                        <p>Lorem ipsum dolor sit met, conteturing elit. Phasellus pellen tesque osure risus lacinia tristique usce sed massa</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-12">
+                    <div class="may__center">
+                        <i>May 19, 2016</i>
+                        <h1>Craft Beers Week</h1>
+                        <p>Lorem ipsum dolor sit met, conteturing elit. Phasellus pellen tesque osure risus lacinia tristique usce sed massa</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-12">
+                    <div class="may__center">
+                        <i>May 19, 2016</i>
+                        <h1>Dolce vita</h1>
+                        <p>Lorem ipsum dolor sit met, conteturing elit. Phasellus pellen tesque osure risus lacinia tristique usce sed massa</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end biru -->
+        <!-- start prop -->
+        <div class="prop">
+            <div class="biru">
+                <div class="biru__center">
+                    <div class="col-lg-6 col-md-12 col-12">
+                        <div class="biru">
+                            <div class="biru__center">
+                                <div class="col-lg-6 col-md-12 col-12">
+                                    <div class="prop__img">
+                                        <img src="./asset/img/gallery-01.jpg" width="100%" alt="">
+                                        <div class="prop__text">
+                                            <i>Daily Catch</i>
+                                            <a href="">Southwestern-Style Shrimp ...</a>
+                                            <i>$23</i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-12 col-12">
+                                    <div class="prop__img">
+                                        <img src="./asset/img/gallery-02.jpg" width="100%" alt="">
+                                        <div class="prop__text">
+                                            <i>Daily Catch</i>
+                                            <a href="">Southwestern-Style Shrimp ...</a>
+                                            <i>$23</i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-12 col-12">
+                                    <div class="prop__img">
+                                        <img src="./asset/img/gallery-03 (1).jpg" width="100%" alt="">
+                                        <div class="prop__text">
+                                            <i>Daily Catch</i>
+                                            <a href="">Southwestern-Style Shrimp ...</a>
+                                            <i>$23</i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-12 col-12">
+                                    <div class="prop__img">
+                                        <img src="./asset/img/gallery-04.jpg" width="100%" alt="">
+                                        <div class="prop__text">
+                                            <i>Daily Catch</i>
+                                            <a href="">Southwestern-Style Shrimp ...</a>
+                                            <i>$23</i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-12">
+                        <div class="prop__img">
+                            <img src="./asset/img/gallery-05.jpg" width="100%" alt="">
+                            <div class="prop__text">
+                                <i>Daily Catch</i>
+                                <a href="">Southwestern-Style Shrimp ...</a>
+                                <i>$23</i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end prop -->
+        </div>
+        <!-- end prop -->
+        <!-- start button -->
+        <div class="button">
+            <a href="">FULL MENU</a>
+        </div>
+        <!-- end button -->
+        <!-- start our -->
+        <div class="our">
+            <h1 id="our">OUR PROMISE</h1>
+            <div class="biru">
+                <div class="biru__center">
+                    <div class="col-lg-4 col-md-12 col-12">
+                        <div class="may__center">
+                            <i>May 19, 2016</i>
+                            <h1>Dolce vita</h1>
+                            <p>Lorem ipsum dolor sit met, conteturing elit. Phasellus pellen tesque osure risus lacinia tristique usce sed massa</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-12">
+                        <div class="may__center">
+                            <i>May 19, 2016</i>
+                            <h1>Dolce vita</h1>
+                            <p>Lorem ipsum dolor sit met, conteturing elit. Phasellus pellen tesque osure risus lacinia tristique usce sed massa</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-12">
+                        <div class="may__center">
+                            <i>May 19, 2016</i>
+                            <h1>Dolce vita</h1>
+                            <p>Lorem ipsum dolor sit met, conteturing elit. Phasellus pellen tesque osure risus lacinia tristique usce sed massa</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end our -->
+        </div>
+        <!-- end our -->
+        <!-- start quality -->
+        <div class="quality">
+            <div class="biru">
+                <div class="biru__center">
+                    <div class="col-lg-6 col-md-12 col-12">
+                        <img src="./asset/img/service-01.jpg" width="100%" alt="">
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-12">
+                        <div class="qua__text">
+                            <i>Chef in House Explains</i>
+                            <h1>Quality to Die For</h1>
+                            <p>Meet our chef! Today, he is a culinary talent, passion for fresh seafood, and dedication to all aspects of running a restaurant serve him well as Executive Chef of Seafood Restaurant, a role he earned after many successful
+                                years
+                            </p>
+                            <div class="button">
+                                <a href="">meet the chef</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-12">
+                        <div class="qua__text">
+                            <i>Chef in House Explains</i>
+                            <h1>Quality to Die For</h1>
+                            <p>Meet our chef! Today, he is a culinary talent, passion for fresh seafood, and dedication to all aspects of running a restaurant serve him well as Executive Chef of Seafood Restaurant, a role he earned after many successful
+                                years
+                            </p>
+                            <div class="button">
+                                <a href="">meet the chef</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-12">
+                        <img src="./asset/img/service-02.jpg" width="100%" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- end quality -->
+        <!-- start prom -->
+        <div class="prom">
+            <div class="new">
+                <h1>OUR PROMISE</h1>
+            </div>
+            <p> seafood and even entrees for those who dont like seafood. Also a great bar selection and friendly bar tenders. Plus you can get some fresh local seafood on your way back home. Great place! Thanks. We absolutely love everything there!" JASON
+                M. "This is a delightful restaurant serving both locally caught and imported sea-foods. The service was fast and the food deliciously prepared as you request it. Plenty to watch on the sound and on the walkways, relaxing way to eat dinner.
+                They also sell a very large variety of fresh sea foods. We highly recommend this restaurant."</p>
+        </div>
+        <!-- end prom -->
+        <!-- start book -->
+        <div class="book">
+            <h1>BOOK A TABLEDATE</h1>
+            <form action="" class="booking__form">
+
+                <div class="booking__select">
+                    <label for="date">Date</label>
+                    <input type="text" id="date">
+                </div>
+                <div class="booking__select">
+                    <label for="time">Time</label>
+                    <select name="time" id="time">
+                        <option>12:00 AM</option>
+                        <option>12:00 AM</option>
+                        <option>12:00 AM</option>
+                        <option>12:00 AM</option>
+                        <option>12:00 AM</option>
+                        <option>12:00 AM</option>
+                        <option>12:00 AM</option>
+                        <option>12:00 AM</option>
+                        <option>12:00 AM</option>
+                    </select>
+                </div>
+                <div class="booking__select">
+                    <label for="party">Party</label>
+                    <select name="party" id="party">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                    </select>
+                </div>
+                <div class="booking__option"><label for="name">Name</label><br><input type="text" id="name"></div>
+                <div class="booking__option"><label for="email">Email</label><br><input type="text" id="email"></div>
+                <div class="booking__option"><label for="phone">Phone</label><br><input type="text" id="phone"></div>
+                <div id="tec" class="booking__option"><label for="message">Message</label> <textarea name="message" id="message"></textarea></div>
+            </form>
+        </div>
+
+        <!-- end book -->
+        <!-- start footer -->
+        <div class="footer">
+            <div class="biru">
+                <div class="biru__center">
+                    <div class="col-lg-4 col-md-12 col-12">
+                        <div class="may__center">
+                            <h1>A FEW MORE WORDS</h1>
+                            <p>We invite you to enjoy our restaurant's tremendously delicious recipes made from scratch every day especially for you. Enjoy a delicious breakfast, lunch or dinner at our delightful place.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-12">
+                        <div class="may__center">
+
+                            <h1>QUICK LINKS</h1>
+                            <ul>
+                                <li><a href="">Menu</a></li>
+                                <li><a href="">Location</a></li>
+                                <li><a href="">About</a></li>
+                                <li><a href="">contacts</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-12">
+                        <div class="may__center">
+
+                            <h1>STAY IN TOUCH</h1>
+                            <input placeholder="Please, enter your email address." type="text">
+                            <p>Only monthly news, we promise!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__end">
+                <div class="footer__icon">
+                    <a href=""><i class="fab fa-tripadvisor" aria-hidden="true"></i></a>
+                    <a href=""><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+                    <a href=""><i class="fab fa-twitter" aria-hidden="true"></i></a>
+                    <a href=""><i class="fab fa-twitter" aria-hidden="true"></i></a>
+                </div>
+                <p>Ancora © 2016 All Rights Reserved Terms of Use and Privacy Policy</p>
+            </div>
+        </div>
+        <!-- end footer -->
     </div>
+
+
+    <script src="./asset/js/js/main.js "></script>
 </body>
 
 </html>
