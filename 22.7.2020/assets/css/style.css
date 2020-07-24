@@ -1,0 +1,474 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 62.5%;
+    font-family: 'Merriweather', serif;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* start header */
+
+#navbar {
+    background-color: rgb(128, 123, 123);
+    position: fixed;
+    top: -50px;
+    width: 100%;
+    height: 84px;
+    display: block;
+    transition: top 0.3s;
+    z-index: 100;
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+#navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.header {
+    width: 100%;
+    position: relative;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+    font-family: 'Merriweather Sans', sans-serif;
+    padding: 20px 105px;
+}
+
+.header__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header a {
+    width: 100%;
+    Color: #fff;
+}
+
+.header a:hover {
+    color: white;
+}
+
+.header .header__left {
+    width: 100%;
+    font-size: 18px;
+}
+
+.header .header__right {
+    width: 100%;
+    font-size: 16px;
+}
+
+.header .header__right ul {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header .header__right ul li {
+    padding: 1rem;
+}
+
+.humbeger {
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    padding: 3px;
+    border: solid rgba(0, 0, 0, 0.5) 1px;
+    position: absolute;
+    top: 16px;
+    left: 88%;
+}
+
+.humbeger .line {
+    width: 41px;
+    height: 3px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 5px;
+    border-radius: 10rem;
+}
+
+
+/* end header */
+
+
+/* start banner */
+
+.banner {
+    width: 100%;
+    padding: 150px 170px;
+    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url(../img/bg-masthead\ \(1\).jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.banner .banner__text {
+    width: 100%;
+    text-align: center;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.banner .banner__text h1 {
+    color: white;
+    font-size: 48px;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.banner .banner__text p {
+    padding: 1rem 0 3rem 0;
+    font-family: 'Merriweather', serif;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 18px;
+    Color: rgba(255, 255, 255, 0.75);
+}
+
+.banner .banner__text a {
+    border-radius: 10rem;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    border: solid #f1643d;
+    background-color: #f1643d;
+    padding: 1.2rem 2.2rem;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.banner .banner__text a:hover {
+    transition: 0.5s;
+    background-color: rgb(230, 62, 32);
+}
+
+
+/* start started */
+
+.started {
+    padding: 130px 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #f4623a;
+}
+
+.started h1 {
+    font-weight: 300;
+    color: white;
+    font-size: 2rem;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.started p {
+    padding: 1.5rem 0 3rem 0;
+    Color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-family: 'Merriweather', serif;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.started a {
+    border-radius: 10rem;
+    color: black;
+    font-size: 14px;
+    font-weight: 700;
+    border: solid white;
+    background-color: white;
+    padding: 1.2rem 2.2rem;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+
+/* start service */
+
+.service {
+    font-family: 'Merriweather Sans', sans-serif;
+    padding: 130px 120px;
+    text-align: center;
+}
+
+.service .padd {
+    padding: 0 0 3rem 0;
+}
+
+.service .raw {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.service .raw h2 {
+    font-size: 24px;
+    padding: 7px;
+}
+
+.service .raw p {
+    line-height: -20px 0 0 0;
+    padding: 7px;
+    font-size: 1rem;
+    color: #6c757d;
+}
+
+.service .raw i {
+    padding: 1rem 0;
+    font-size: 64px;
+    Color: #f4623a
+}
+
+
+/* start img */
+
+.img .raw {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img .raw img {
+    position: relative;
+    display: block;
+}
+
+.img .raw .chil {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #f4623a;
+    opacity: 0;
+}
+
+.chil__text {
+    opacity: 0;
+}
+
+.img .raw .chil .chil__text h4 {
+    font-family: 'Merriweather Sans', sans-serif;
+    Color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+}
+
+.img .raw .chil .chil__text h1 {
+    font-weight: 400;
+    font-size: 19px;
+    color: white;
+    font-family: 'Merriweather', serif;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.img .raw .chil:hover {
+    transition: 0.3s;
+    opacity: 0.9;
+}
+
+.img .raw .chil:hover .chil__text {
+    opacity: 1;
+}
+
+
+/* start download */
+
+.download .started h1 {
+    padding: 0 0 3.5rem 0;
+    font-weight: 400;
+}
+
+.download .started {
+    padding: 125px 302px;
+    background-color: #343A40;
+}
+
+
+/*========start touch========== */
+
+.touch {
+    text-align: center;
+    padding: 120px 274px;
+}
+
+.touch i {
+    padding: 1rem;
+    color: #6c757d;
+    font-size: 48px;
+}
+
+.touch a {
+    color: coral;
+}
+
+.email {
+    flex-direction: column;
+}
+
+.touch .rio {
+    display: flex;
+    justify-content: space-between;
+}
+
+.touch p {
+    padding: 1rem 0 0 0;
+    Color: #6c757d;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.touch h1 {
+    font-size: 32px;
+    Color: #212529
+}
+
+
+/* =======start footer========== */
+
+.footer {
+    background-color: #F8F9FA;
+    text-align: center;
+    padding: 3rem 0;
+    font-size: 13px;
+    Color: #6c757d;
+    font-weight: 400;
+}
+
+@media(min-width: 992px) {
+    .humbeger {
+        display: none;
+    }
+}
+
+@media(max-width: 991px) {
+    #navbar {
+        display: none;
+    }
+    .header a {
+        color: rgb(116, 101, 99);
+    }
+    .header a:hover {
+        color: tomato;
+    }
+    .header {
+        width: 100%;
+        background-color: white;
+    }
+    .header__menu {
+        padding: 5px 0;
+        width: 100%;
+        overflow: hidden;
+        max-height: 0vh;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        transition: 0.5s;
+    }
+    .showMenu {
+        max-height: 100vh;
+    }
+    .header__menu .header__right ul {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .header .header__right ul li {
+        padding: 1rem 0;
+    }
+    .banner {
+        padding: 11rem 0;
+    }
+    .banner .banner__text {
+        padding: 0 3rem;
+    }
+    .banner .banner__text h1 {
+        font-size: 2rem;
+    }
+    .started {
+        padding: 3rem 1rem;
+    }
+    .service {
+        padding: 100px 70px;
+    }
+    .download .started {
+        padding: 8rem 2rem;
+    }
+    .touch {
+        padding: 8rem 4rem;
+    }
+    .humbeger {
+        left: 88%;
+        top: 8px;
+    }
+}
+
+@media(max-width:768px) {
+    .header__menu {
+        padding: 0;
+    }
+    .humbeger {
+        left: 88%;
+    }
+    .header {
+        padding: 30px 41px;
+    }
+}
+
+@media(max-width:425px) {
+    .touch p {
+        padding: 0;
+        font-size: 11px;
+    }
+    .header .header__right ul li {
+        padding: 0.55rem 0;
+    }
+    .banner {
+        padding: 7rem 0;
+    }
+    .banner .banner__text {
+        padding: 0 1.5rem;
+    }
+    .banner .banner__text h1 {
+        font-size: 1rem;
+    }
+    .started {
+        padding: 40px 33px;
+    }
+    .service {
+        padding: 50px 35px;
+    }
+    .download .started {
+        padding: 4rem 1rem;
+    }
+    .touch {
+        padding: 4rem 2rem;
+    }
+    .humbeger {
+        left: 75%;
+    }
+}
