@@ -267,6 +267,11 @@ li {
     font-family: 'Dancing Script', sans-serif;
 }
 
+.parent .frend__img img:hover {
+    width: 105%;
+    transition: 0.5s;
+}
+
 .event .card__text p {
     font-size: 15px;
     font-family: 'Cardo', serif;
