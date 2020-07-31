@@ -8,6 +8,11 @@ body {
     font-size: 62.5%;
 }
 
+.wrapper {
+    max-width: 100%;
+    overflow: hidden;
+}
+
 a {
     text-decoration: none;
 }
@@ -66,13 +71,11 @@ li {
 }
 
 .cardd {
-    display: none;
     position: absolute;
-    top: 100%;
     background-color: aliceblue;
-    padding-top: 26px;
-    transition: 0.5s;
-    transform: translateY(0);
+    display: none;
+    top: 100%;
+    transform: translateY(30%);
     font-family: 'Cardo', serif;
 }
 
@@ -84,8 +87,11 @@ li {
 }
 
 .hover:hover .cardd {
-    transition: 0.5s;
     display: block;
+    animation: run 0.3s;
+    transition: 0.5s;
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .line {
@@ -268,7 +274,7 @@ li {
 }
 
 .parent .frend__img img:hover {
-    transform: scale(10px, 10px);
+    transform: scale(1.1, 1.1);
     transition: 0.5s;
 }
 
@@ -422,6 +428,16 @@ li {
 }
 
 @media (min-width: 768px) {
+    @keyframes run {
+        0% {
+            opacity: 0.5;
+            transform: translateY(30%);
+        }
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
     .humbeger {
         display: none;
     }
@@ -504,6 +520,18 @@ li {
     }
     .married {
         padding: 50px 40px;
+    }
+    .cardd {
+        display: none;
+    }
+    .cardd li {
+        padding: 15px 75px 15px 25px;
+        font-size: 15px;
+        background-color: rgb(255, 255, 255);
+        cursor: pointer;
+    }
+    .hover:hover .cardd {
+        display: block;
     }
 }
 
