@@ -65,7 +65,7 @@ li {
     font-weight: 700;
 }
 
-.card {
+.cardd {
     display: none;
     position: absolute;
     top: 100%;
@@ -76,14 +76,14 @@ li {
     font-family: 'Cardo', serif;
 }
 
-.card li {
+.cardd li {
     padding: 15px 75px 15px 25px;
     font-size: 15px;
     background-color: rgb(255, 255, 255);
     cursor: pointer;
 }
 
-.hover:hover .card {
+.hover:hover .cardd {
     transition: 0.5s;
     display: block;
 }
@@ -268,7 +268,7 @@ li {
 }
 
 .parent .frend__img img:hover {
-    width: 105%;
+    transform: scale(10px, 10px);
     transition: 0.5s;
 }
 
@@ -478,7 +478,7 @@ li {
     .showMenu {
         max-height: 100vh;
     }
-    .card {
+    .cardd {
         position: relative;
     }
     .temp a {
