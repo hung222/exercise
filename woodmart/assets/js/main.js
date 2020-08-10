@@ -1,18 +1,34 @@
 const header = {
     init: function() {
+        this.clickShowMenu('.humbeger', '.overlay', 'show');
         this.clickShowMenu('.humbeger', '.mobi__wrap', 'showMenu');
     },
     clickShowMenu: function(button, menu, ClassShowMenu) {
         var btn = document.querySelector(button);
         var NavMenu = document.querySelector(menu);
         btn.addEventListener('click', () => {
-            NavMenu.classList.toggle(ClassShowMenu);
+            NavMenu.classList.add(ClassShowMenu);
         });
     }
 }
 header.init()
 
 
+
+const keader = {
+    init: function() {
+        this.clickShowMenu('.over', '.overlay', 'show');
+        this.clickShowMenu('.over', '.mobi__wrap', 'showMenu');
+    },
+    clickShowMenu: function(button, menu, ClassShowMenu) {
+        var btn = document.querySelector(button);
+        var NavMenu = document.querySelector(menu);
+        btn.addEventListener('click', () => {
+            NavMenu.classList.remove(ClassShowMenu);
+        });
+    }
+}
+keader.init()
 
 const tabcontent = {
     init: function() {
