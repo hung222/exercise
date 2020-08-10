@@ -1508,6 +1508,12 @@
                         }
                         
                         @media (max-width: 991px) {
+                            .row__center {
+                                width: 100%;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                            }
                             .isotope .sale::before {
                                 display: none;
                             }
@@ -1609,9 +1615,6 @@
                             .item__chal h1 {
                                 display: none;
                             }
-                            .item__chal a {
-                                transform: translateX(20rem);
-                            }
                         }
                         
                         @media (max-width: 767px) {
@@ -1655,9 +1658,6 @@
                             }
                             .align {
                                 text-align: center;
-                            }
-                            .item__chal a {
-                                transform: translateX(105%);
                             }
                             .email form {
                                 width: 353px;
