@@ -246,6 +246,10 @@
                             position: relative;
                         }
                         
+                        .bannerr .owl-dots {
+                            transform: translateY(-80px);
+                        }
+                        
                         .banner {
                             border-top: 1px solid rgba(0, 0, 0, .1);
                             border-bottom: 1px solid rgba(0, 0, 0, .1);
@@ -1000,9 +1004,31 @@
                         }
                         
                         .item__chal {
+                            position: relative;
                             padding: 4rem 0 0 0;
                             background-color: #7AB532;
                             font-family: 'Lato', sans-serif;
+                        }
+                        
+                        .item__chal::before {
+                            position: absolute;
+                            font-weight: 700;
+                            content: 'BestSellers';
+                            opacity: .1;
+                            font-size: 200px;
+                            left: 50%;
+                            top: 50%;
+                            color: #fff;
+                            transform: translate(-50%, -50%);
+                        }
+                        
+                        .chail .owl-nav {
+                            display: none;
+                        }
+                        
+                        .chail .k {
+                            display: flex;
+                            align-items: center;
                         }
                         
                         .row {
@@ -1465,6 +1491,10 @@
                             width: 60%;
                             z-index: 1000;
                             position: absolute;
+                            height: 100vh;
+                            overflow: auto;
+                            position: fixed;
+                            transition: 0.5s;
                         }
                         
                         .mobi__wrap .mobi__chil {
@@ -1523,7 +1553,6 @@
                         
                         .showMenu {
                             transform: translate(0%);
-                            transition: 0.4s;
                         }
                         
                         .mobi__wrap .search {
@@ -1545,6 +1574,9 @@
                         }
                         
                         @media (max-width: 991px) {
+                            .bannerr .owl-dots {
+                                display: none;
+                            }
                             .chail .padd {
                                 margin: 0;
                                 transform: translateX(0);
@@ -1634,7 +1666,7 @@
                                 transform: translate(-20rem, -18rem);
                             }
                             .scale {
-                                padding: 25px 20px;
+                                padding: 25px 10%;
                             }
                             .isotope {
                                 padding: 0rem 0 5rem 0;
@@ -1660,6 +1692,9 @@
                         }
                         
                         @media (max-width: 767px) {
+                            .scale {
+                                padding: 25px 4%;
+                            }
                             .item__chal {
                                 text-align: center;
                             }
