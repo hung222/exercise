@@ -1783,6 +1783,12 @@
                             }
                         }
                         
+                        .bannerr .owl-theme .owl-nav [class*=owl-]:hover {
+                            background: none;
+                            color: black;
+                            border: none;
+                        }
+                        
                         .tab {
                             overflow: hidden;
                             border: 1px solid #ccc;
