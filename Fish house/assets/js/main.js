@@ -2,6 +2,9 @@ const header = {
     init: function() {
         this.clickShowMenu('.humbeger', ' .list__menu', 'showMenu');
         this.clickShowMenu('.humbeger', ' .overlay', 'Meniu');
+        this.clickShowMenu('.header .list__menu .item', ' .item__content', 'showList');
+        this.clickShowMenu('.header .list__menu .item1', ' .item__content1', 'showList1');
+        this.clickShowMenu('.header .list__menu .item2', ' .item__content2', 'showList2');
     },
     clickShowMenu: function(button, menu, ClassShowMenu) {
         var btn = document.querySelector(button);
