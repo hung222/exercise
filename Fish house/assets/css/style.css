@@ -125,7 +125,6 @@
         }
         
         .list__menu .item__content {
-            max-height: 0%;
             position: absolute;
             top: 63px;
             left: -45%;
@@ -136,7 +135,16 @@
             transition: .3s;
         }
         
+        .list__menu i {
+            float: right;
+            font-style: normal;
+            color: white;
+        }
+        
         @media(min-width:992px) {
+            .list__menu i {
+                display: none;
+            }
             .item:hover .item__content {
                 display: block;
             }
@@ -954,12 +962,8 @@
             .humbeger {
                 display: block;
             }
-            .location .content__row p {
-                font-size: 12px;
-            }
             .location .loca__text {
                 padding: 25px;
-                transform: translateY(15%);
             }
             .header {
                 width: 100%;
@@ -1005,6 +1009,7 @@
                 display: none;
             }
             .list__menu .item__content {
+                max-height: 0%;
                 margin: 0 6px;
                 max-height: 0;
                 padding: 0;
@@ -1014,6 +1019,13 @@
             .list__menu .showList {
                 max-height: 100%;
                 opacity: 1;
+            }
+            .loca__img {
+                height: 100%;
+            }
+            .loca__img img {
+                height: 100%;
+                display: block;
             }
             .list__menu .showList1 {
                 max-height: 100%;
@@ -1056,5 +1068,20 @@
             }
             .footer .input {
                 width: 80%;
+            }
+            .location .content__row p {
+                font-size: 15px;
+            }
+        }
+        
+        @media(max-width:768px) {
+            .location .content__row p {
+                font-size: 15px;
+            }
+            .booking__form {
+                width: 500px;
+            }
+            .footer__content {
+                margin: 20px 0;
             }
         }
